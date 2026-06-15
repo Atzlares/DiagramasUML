@@ -3,12 +3,21 @@ title Diagrama de clases y diagrama de transicion de estados
 
 
 class Autor{
+-nombre:String
+-nacionalidad: String
+-fechaNa: Date
 }
 
 class Libro{
+-nombre: String
+-editorial: String
+-ano: Integer
+-tipo: Tipo libro
+
 }
 
 class Copia{
+-identificador: String
 }
 
 class Lector{
