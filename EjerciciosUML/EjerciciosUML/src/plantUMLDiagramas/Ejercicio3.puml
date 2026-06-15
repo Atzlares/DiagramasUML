@@ -27,7 +27,7 @@ class Lector{
 -diasDeMulta: Integer
 }
 
-class Prestamiento{
+class Prestado{
 -fechaSalida:Date
 -fechaEntrega: Date
 -fechaDevolucion: Date
@@ -48,7 +48,10 @@ RETRASO
 REPARACION
 }
 
-
+Autor <-- Libro
+Libro *-- Copia
+Lector -- Prestado
+Copia -- Prestado
 
 
 @enduml
