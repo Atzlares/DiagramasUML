@@ -1,0 +1,21 @@
+@startuml
+title Diagrama de clases y diagrama de transicion de estados
+
+
+class Autor{
+}
+
+class Libro{
+}
+
+class Copia{
+}
+
+class Lector{
+}
+
+class Prestamiento{
+}
+
+
+@enduml
