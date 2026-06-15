@@ -18,12 +18,25 @@ class Libro{
 
 class Copia{
 -identificador: String
+-estado: EstadoCopia
 }
 
 class Lector{
+-lectorID: String
+-nombre: String
+-diasDeMulta: Integer
 }
 
 class Prestamiento{
+-fechaSalida:Date
+-fechaEntrega: Date
+-fechaDevolucion: Date
+}
+
+enum TipoLibro{
+}
+
+enum EstadoCopia{
 }
 
 
