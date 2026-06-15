@@ -26,10 +26,14 @@ class Empresa{
 +MostrarInformacion(): void
 }
 
-Persona <-- Empleado
-Persona <-- Cliente
-Empleado <-- Directivo
+
+Persona <|-- Empleado
+Persona <|-- Cliente
+Empleado <|-- Directivo
 
 
+Empresa *--  Empleado : emplea >
+Empresa  *--  Cliente : tiene >
+Directivo -->  Empleado : supervisa >
 
 @enduml
