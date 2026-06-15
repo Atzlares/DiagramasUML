@@ -34,10 +34,21 @@ class Prestamiento{
 }
 
 enum TipoLibro{
+NOVELA
+TEATRO
+POESIA
+ENSAYO
 }
 
 enum EstadoCopia{
+BIBLIOTECA
+PRESTADA
+RESERVADA
+RETRASO
+REPARACION
 }
+
+
 
 
 @enduml
